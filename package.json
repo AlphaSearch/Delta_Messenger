@@ -2,9 +2,9 @@
   "name": "delta-msg",
   "version": "0.0.1",
   "description": "Messenger written on Python and NodeJS",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/AlphaSearch/Delta_Messenger/issues"
   },
-  "homepage": "https://github.com/AlphaSearch/Delta_Messenger#readme"
+  "homepage": "https://github.com/AlphaSearch/Delta_Messenger#readme",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  },
+  "dependencies": {}
 }
